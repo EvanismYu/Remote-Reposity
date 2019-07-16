@@ -1,5 +1,5 @@
 # Remote-Reposity
-### github远程仓库的使用
+### *github远程仓库的使用
 
 ### 一.创建一个仓库：
 
@@ -11,15 +11,17 @@
 
 #### 4.添加连接：
 
-#### git remote add origin https://github.com/xuan/Remote.git  (此处的xuan是我的用户名)
+#### git remote add origin https://github.com/EvanismYu/Remote-Reposity.git (此处的EvanismYu是我的用户名)
 
 #### 5.再次输入git remote -v，回车，此时就能发现有连接了
 
 #### 6.将仓库中的文件推送到远程，输入git push origin master,回车，此时回到GitHub中的仓库，就能发现已经成功了
 
+### *将GitHub中的文件克隆到本地：
 
+### git clone https://github.com/EvanismYu/Remote-Reposity.git
 
-### 在本地修改文件之后
+### *在本地修改文件之后
 
 #### 1. 添加文件查看状态
 
